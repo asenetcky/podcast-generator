@@ -1,4 +1,4 @@
-FROM FROM python:3.10-slim
+FROM python:3.10-slim
 
 RUN apt-get update -y > /dev/null 2>&1 && \
     apt-get install -y \
